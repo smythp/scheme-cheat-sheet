@@ -1,28 +1,3 @@
----
-title: Scheme Cheat Sheet
----
-
--   [Emacs](#emacs)
-    -   [alt-x](#alt-x)
-    -   [Minibuffer](#minibuffer)
-    -   [Open file](#open-file)
-    -   [Tutorial](#tutorial)
-    -   [Comic Strpis about Emacs](#comic-strpis-about-emacs)
-    -   [Moving Around](#moving-around)
-    -   [Key Notation](#key-notation)
-    -   [Cancel key](#cancel-key)
-    -   [.emacs file](#emacs-file)
-    -   [What is Emacs?](#what-is-emacs)
--   [Scheme](#scheme)
-    -   [.scm](#scm)
-    -   [Evaluation](#evaluation)
-    -   [Functions](#functions)
-    -   [Geiser](#geiser)
-    -   [Guile](#guile)
-    -   [Running Scheme Code in Emacs](#running-scheme-code-in-emacs)
-    -   [What is Lisp?](#what-is-lisp)
-    -   [What is Scheme?](#what-is-scheme)
-
 Emacs
 =====
 
@@ -46,7 +21,7 @@ Minibuffer
 The area below the gray bar. This is where you see messages from Emacs
 and where you are prompted to enter information.
 
-Open file
+Open File
 ---------
 
 C-x C-f (control-x, control-f) After hitting it, you\'ll see a prompt in
@@ -62,29 +37,27 @@ Tutorial
 Type `C-h t` to start the built-in tutorial. Highly recommended. Will
 take 2-5 hours.
 
-Comic Strpis about Emacs
+Comic Strips About Emacs
 ------------------------
 
 [M-x butterfly](https://xkcd.com/378/)\
 [Emacs Learning
 Curve](https://stackoverflow.com/questions/10942008/what-does-emacs-learning-curve-actually-look-like)
 
-Moving Around
--------------
-
 Key Notation
 ------------
 
-`C-f` means hold down `control` and press `f` `M-f` means hold down
-`alt` and press `f` `S-f` means hold down `shift` and press `f` `C-M-f`
-means hold down `control` and `alt` and press `f`
+`C-f` means hold down `control` and press `f~\\
+~M-f` means hold down `alt` and press `f~\\
+~S-f` means hold down `shift` and press `f~\\
+~C-M-f` means hold down `control` and `alt` and press \~f\~\
 
-Cancel key
+Cancel Key
 ----------
 
 Hit `C-g` to get out of sticky situations. Hit this key often.
 
-.emacs file
+.emacs File
 -----------
 
 Your Emacs configuration file is called `.emacs` and lives in your home
@@ -129,9 +102,10 @@ correctness.
 Use a function by making an expression (stuff between parentheses) that
 has the function name first and then the inputs after it. Like this:
 
-\#+BEGIN~SRC~ (expt 5 2) =\> 25
-
-\#+END~EXAMPLE~
+``` {.example}
+(expt 5 2)
+=> 25
+```
 
 `expt` is the exponent function. The first input is the base and the
 second input is the power. 5 to the power of 2. We call inputs to a
