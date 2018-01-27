@@ -21,10 +21,10 @@ Type ~C-h t~ to start the built-in tutorial. Highly recommended. Will take 2-5 h
 [[https://stackoverflow.com/questions/10942008/what-does-emacs-learning-curve-actually-look-like][Emacs Learning Curve]]
 
 ** Key Notation
-~C-f~ means hold down ~control~ and press ~f~\\
-~M-f~ means hold down ~alt~ and press ~f~\\
-~S-f~ means hold down ~shift~ and press ~f~\\
-~C-M-f~ means hold down ~control~ and ~alt~ and press ~f~\\
+~C-f~ means hold down ~control~ and press ~f~ \\
+~M-f~ means hold down ~alt~ and press ~f~ \\
+~S-f~ means hold down ~shift~ and press ~f~ \\
+~C-M-f~ means hold down ~control~ and ~alt~ and press ~f~ \\
 
 ** Cancel Key
 Hit ~C-g~ to get out of sticky situations. Hit this key often.
