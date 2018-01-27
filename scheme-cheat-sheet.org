@@ -46,7 +46,7 @@ There are three ways you can think of functions, in increasing order of correctn
 
 Use a function by making an expression (stuff between parentheses) that has the function name first and then the inputs after it. Like this:
 
-#+BEGIN_EXAMPLE
+#+BEGIN_EXAMPLE 
 (expt 5 2)
 => 25
 #+END_EXAMPLE
