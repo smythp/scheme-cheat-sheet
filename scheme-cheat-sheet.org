@@ -10,26 +10,25 @@ tetris
 which runs a function that starts a game of tetris. Why tetris is included in Emacs I don't know.
 ** Minibuffer
 The area below the gray bar. This is where you see messages from Emacs and where you are prompted to enter information.
-** Open file
+** Open File
 C-x C-f (control-x, control-f)
 After hitting it, you'll see a prompt in the minibuffer. If you type a filename, it will open the file. If you type a name that doesn't exist yet, it will open an empty buffer that you can type in. Once you save that buffer, a new file will be created with that name. So the open file function is also how you create new files.
 
 ** Tutorial
 Type ~C-h t~ to start the built-in tutorial. Highly recommended. Will take 2-5 hours.
-** Comic Strpis about Emacs
+** Comic Strips About Emacs
 [[https://xkcd.com/378/][M-x butterfly]]\\
 [[https://stackoverflow.com/questions/10942008/what-does-emacs-learning-curve-actually-look-like][Emacs Learning Curve]]
 
-** Moving Around
 ** Key Notation
-~C-f~ means hold down ~control~ and press ~f~
-~M-f~ means hold down ~alt~ and press ~f~
-~S-f~ means hold down ~shift~ and press ~f~
-~C-M-f~ means hold down ~control~ and ~alt~ and press ~f~
+~C-f~ means hold down ~control~ and press ~f~\\
+~M-f~ means hold down ~alt~ and press ~f~\\
+~S-f~ means hold down ~shift~ and press ~f~\\
+~C-M-f~ means hold down ~control~ and ~alt~ and press ~f~\\
 
-** Cancel key
+** Cancel Key
 Hit ~C-g~ to get out of sticky situations. Hit this key often.
-** .emacs file
+** .emacs File
 Your Emacs configuration file is called ~.emacs~ and lives in your home folder. The file consists  of code that is run when Emacs starts up.
 ** What is Emacs?
 An old text editor with a lot of features. Made by a cranky person who likes parrots.
@@ -47,7 +46,7 @@ There are three ways you can think of functions, in increasing order of correctn
 
 Use a function by making an expression (stuff between parentheses) that has the function name first and then the inputs after it. Like this:
 
-#+BEGIN_SRC
+#+BEGIN_EXAMPLE
 (expt 5 2)
 => 25
 #+END_EXAMPLE
