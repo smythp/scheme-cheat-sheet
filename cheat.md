@@ -1,3 +1,27 @@
+---
+title: Scheme Cheat Sheet
+---
+
+-   [Emacs](#emacs)
+    -   [alt-x](#alt-x)
+    -   [Minibuffer](#minibuffer)
+    -   [Open File](#open-file)
+    -   [Tutorial](#tutorial)
+    -   [Comic Strips About Emacs](#comic-strips-about-emacs)
+    -   [Key Notation](#key-notation)
+    -   [Cancel Key](#cancel-key)
+    -   [.emacs File](#emacs-file)
+    -   [What is Emacs?](#what-is-emacs)
+-   [Scheme](#scheme)
+    -   [.scm](#scm)
+    -   [Evaluation](#evaluation)
+    -   [Functions](#functions)
+    -   [Geiser](#geiser)
+    -   [Guile](#guile)
+    -   [Running Scheme Code in Emacs](#running-scheme-code-in-emacs)
+    -   [What is Lisp?](#what-is-lisp)
+    -   [What is Scheme?](#what-is-scheme)
+
 Emacs
 =====
 
@@ -47,10 +71,10 @@ Curve](https://stackoverflow.com/questions/10942008/what-does-emacs-learning-cur
 Key Notation
 ------------
 
-`C-f` means hold down `control` and press `f~\\
-~M-f` means hold down `alt` and press `f~\\
-~S-f` means hold down `shift` and press `f~\\
-~C-M-f` means hold down `control` and `alt` and press \~f\~\
+`C-f` means hold down `control` and press `f`\
+`M-f` means hold down `alt` and press `f`\
+`S-f` means hold down `shift` and press `f`\
+`C-M-f` means hold down `control` and `alt` and press `f`\
 
 Cancel Key
 ----------
