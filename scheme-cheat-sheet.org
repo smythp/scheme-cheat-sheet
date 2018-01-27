@@ -1,3 +1,4 @@
+#+TITLE: Scheme Cheat Sheet
 * Emacs
 ** alt-x
 Called M-x in Emacs lingo. You type this and then type the name of a function. For example, hold alt, hit x, and then enter this in the prompt:
@@ -65,7 +66,7 @@ Programming is kind of like making a house. First, you design something, then yo
 run-geiser
 #+END_EXAMPLE
 
-You'll a prompt:
+You'll see a prompt:
 
 #+BEGIN_EXAMPLE 
 Start Geiser for scheme implementation: 
@@ -82,7 +83,7 @@ scheme@(guile-user)>
 Just type some Scheme and hit Enter.
 
 The other way to run code is to run it from a .scm file (Scheme file). To do this, first make sure your REPL (guile process) is running. Open a .scm file. Type some Scheme into the file, then put your cursor at the end of an expression and type ~C-x C-e~. The code should run and you'll see output, if any, in the minibuffer.
-** WHat is Lisp?
+** What is Lisp?
 Lisp was a cool math notation that someone at MIT came up with. One of his grad students looked at it and was like, "Did you know this is basically a programming language?" The guy was like, "cool." They used it for AI research until the field of AI collapsed in on itself.
 
 As a language it's interesting because code/procedures are the same as data. In Lisp's elemental form there really is no syntax, basically just expressions that look like lists. Unimaginatively, it stands for LISt Processing.
