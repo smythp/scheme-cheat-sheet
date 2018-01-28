@@ -74,7 +74,7 @@ Key Notation
 `C-f` means hold down `control` and press `f`\
 `M-f` means hold down `alt` and press `f`\
 `S-f` means hold down `shift` and press `f`\
-`C-M-f` means hold down `control` and `alt` and press `f`\
+`C-M-f` means hold down `control` and `alt` and press `f`
 
 Cancel Key
 ----------
