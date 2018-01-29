@@ -2,96 +2,34 @@
 title: Scheme Cheat Sheet
 ---
 
--   [Emacs](#emacs)
-    -   [alt-x](#alt-x)
-    -   [Minibuffer](#minibuffer)
-    -   [Open File](#open-file)
-    -   [Tutorial](#tutorial)
-    -   [Comic Strips About Emacs](#comic-strips-about-emacs)
-    -   [Key Notation](#key-notation)
-    -   [Cancel Key](#cancel-key)
-    -   [.emacs File](#emacs-file)
-    -   [What is Emacs?](#what-is-emacs)
 -   [Scheme](#scheme)
     -   [.scm](#scm)
     -   [Evaluation](#evaluation)
     -   [Functions](#functions)
     -   [Geiser](#geiser)
     -   [Guile](#guile)
+    -   [Recursion](#recursion)
     -   [Running Scheme Code in Emacs](#running-scheme-code-in-emacs)
     -   [What is Lisp?](#what-is-lisp)
     -   [What is Scheme?](#what-is-scheme)
-
-Emacs
-=====
-
-alt-x
------
-
-Called M-x in Emacs lingo. You type this and then type the name of a
-function. For example, hold alt, hit x, and then enter this in the
-prompt:
-
-``` {.example}
-tetris
-```
-
-which runs a function that starts a game of tetris. Why tetris is
-included in Emacs I don\'t know.
-
-Minibuffer
-----------
-
-The area below the gray bar. This is where you see messages from Emacs
-and where you are prompted to enter information.
-
-Open File
----------
-
-C-x C-f (control-x, control-f) After hitting it, you\'ll see a prompt in
-the minibuffer. If you type a filename, it will open the file. If you
-type a name that doesn\'t exist yet, it will open an empty buffer that
-you can type in. Once you save that buffer, a new file will be created
-with that name. So the open file function is also how you create new
-files.
-
-Tutorial
---------
-
-Type `C-h t` to start the built-in tutorial. Highly recommended. Will
-take 2-5 hours.
-
-Comic Strips About Emacs
-------------------------
-
-[M-x butterfly](https://xkcd.com/378/)\
-[Emacs Learning
-Curve](https://stackoverflow.com/questions/10942008/what-does-emacs-learning-curve-actually-look-like)
-
-Key Notation
-------------
-
-`C-f` means hold down `control` and press `f`\
-`M-f` means hold down `alt` and press `f`\
-`S-f` means hold down `shift` and press `f`\
-`C-M-f` means hold down `control` and `alt` and press `f`
-
-Cancel Key
-----------
-
-Hit `C-g` to get out of sticky situations. Hit this key often.
-
-.emacs File
------------
-
-Your Emacs configuration file is called `.emacs` and lives in your home
-folder. The file consists of code that is run when Emacs starts up.
-
-What is Emacs?
---------------
-
-An old text editor with a lot of features. Made by a cranky person who
-likes parrots.
+-   [Emacs](#emacs)
+    -   [.emacs File](#emacs-file)
+    -   [alt-x](#alt-x)
+    -   [Cancel Key](#cancel-key)
+    -   [Comic Strips About Emacs](#comic-strips-about-emacs)
+    -   [Creator of Emacs](#creator-of-emacs)
+    -   [Key Notation](#key-notation)
+    -   [Minibuffer](#minibuffer)
+    -   [Open File](#open-file)
+    -   [Tutorial](#tutorial)
+    -   [What is Emacs?](#what-is-emacs)
+-   [Programmer lore](#programmer-lore)
+    -   [Free Vs. Open Source Software](#free-vs.-open-source-software)
+    -   [Functional Programming](#functional-programming)
+    -   [Hacker](#hacker)
+-   [People](#people)
+    -   [Richard Stallman](#richard-stallman)
+    -   [Paul Graham](#paul-graham)
 
 Scheme
 ======
@@ -153,6 +91,19 @@ abstract, but it also has different implementations, actual code that
 runs Scheme programs, that are in practice slightly different from each
 other. So far we\'re been using Guile, but there\'s also MIT Scheme and
 Chicken Scheme.
+
+Recursion
+---------
+
+Recursion in the abstract means a thing referring to itself. In
+programming, it usually means calling a function from inside itself.
+Recursion is a useful way of solving problems and is particularly
+encouraged in Scheme. Scheme is associated with the introduction of tail
+recursion, which if implemented in a programming language allows
+recursion to be performed more efficiently.
+
+See Hofstader\'s fun article on Lisp\'s lists and recursion in
+*Metamagical Themas*.
 
 Running Scheme Code in Emacs
 ----------------------------
@@ -227,3 +178,147 @@ book is really hard but I will finish it some day. Scheme is a Lisp.
 
 Scheme is pretty cool to learn because it\'s intentionally small and
 because there are good books written for it.
+
+Emacs
+=====
+
+.emacs File
+-----------
+
+Your Emacs configuration file is called `.emacs` and lives in your home
+folder. The file consists of code that is run when Emacs starts up.
+
+alt-x
+-----
+
+Called M-x in Emacs lingo. You type this and then type the name of a
+function. For example, hold alt, hit x, and then enter this in the
+prompt:
+
+``` {.example}
+tetris
+```
+
+which runs a function that starts a game of tetris. Why tetris is
+included in Emacs I don\'t know.
+
+Cancel Key
+----------
+
+Hit `C-g` to get out of sticky situations. Hit this key often.
+
+Comic Strips About Emacs
+------------------------
+
+[M-x butterfly](https://xkcd.com/378/)\
+[Emacs Learning
+Curve](https://stackoverflow.com/questions/10942008/what-does-emacs-learning-curve-actually-look-like)
+
+Creator of Emacs
+----------------
+
+See *Richard Stallman*.
+
+Key Notation
+------------
+
+`C-f` means hold down `control` and press `f`\
+`M-f` means hold down `alt` and press `f`\
+`S-f` means hold down `shift` and press `f`\
+`C-M-f` means hold down `control` and `alt` and press `f`
+
+Minibuffer
+----------
+
+The area below the gray bar. This is where you see messages from Emacs
+and where you are prompted to enter information.
+
+Open File
+---------
+
+C-x C-f (control-x, control-f) After hitting it, you\'ll see a prompt in
+the minibuffer. If you type a filename, it will open the file. If you
+type a name that doesn\'t exist yet, it will open an empty buffer that
+you can type in. Once you save that buffer, a new file will be created
+with that name. So the open file function is also how you create new
+files.
+
+Tutorial
+--------
+
+Type `C-h t` to start the built-in tutorial. Highly recommended. Will
+take 2-5 hours.
+
+What is Emacs?
+--------------
+
+An old text editor with a lot of features. Made by a cranky person who
+likes parrots.
+
+Programmer lore
+===============
+
+Free Vs. Open Source Software
+-----------------------------
+
+In 1997, there was a break in the community of non-proprietary software
+developers. Due to personality conflicts with Richard Stallman and a
+feeling that his stance on free software as an ethical issue was
+anti-business, some developers, including Eric Raymond , started the
+open source movement. Open source advocates for releasing code to the
+public as a sensible and sustainable business practice rather than an
+ethical requirement.
+
+Functional Programming
+----------------------
+
+One of many programming paradigms, or high-level ways of architecting
+software. Though functions are used in almost all modern programming,
+programming in the functional style means passing values from function
+to function so that few variables have to be defined and so that
+structures in memory don\'t have to be changed in place. Most
+programmers aren\'t initially trained in this style but it\'s shown its
+usefulness in creating software that avoids certain classes of bugs and
+which allows the computer to split up problems into discrete tasks that
+can be run in paralell without causing trouble.
+
+Scheme is designed as a functional programming language, though
+functional programming isn\'t enforced like in some languages like
+Haskell. That means you\'re encouraged to solve problems by passing
+values from function to function.
+
+Hacker
+------
+
+In modern usage, someone who exploits or infiltrates computer systems.
+Originally a term derived from the community that grew up around the MIT
+Model Train Club (yes, really) and the AI Lab to mean someone who deeply
+understood a system. Still used as a term of respect for a certain kind
+of programmer or as self-identification for programmers who aspire to a
+particular aesthetic or who work with technologies or problem domains
+where the hacker ethos is valued. Lisp programmers frequently refer to
+themselves as Lisp hackers. In other communities, the term hacker is
+more associated with creating quick or ad hoc solutions.
+
+People
+======
+
+Richard Stallman
+----------------
+
+Creator of Emacs, also known as RMS. After [an incident involving a
+recalcitrant
+printer](http://www.oreilly.com/openbook/freedom/ch01.html), Stallman
+embarked on a lifelong crusade against proprietary software. His belief
+that free vs. proprietary software is a matter of ethics led to a schism
+in the community of non-proprietary software developers---see
+*free vs. open source software*.
+
+Paul Graham
+-----------
+
+Entrepreneur who writes a lot about Lisp. Used Lisp to create Viaweb, a
+web app for making online stores, and sold it to Yahoo. Created a famous
+(possibly the most famous) tech incubator, Y Combinator, which is named
+after a complicated programming technique for recurring inside an
+unnamed function. I think that\'s what a Y Combinator is, anyway.
