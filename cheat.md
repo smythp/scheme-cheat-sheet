@@ -102,8 +102,8 @@ encouraged in Scheme. Scheme is associated with the introduction of tail
 recursion, which if implemented in a programming language allows
 recursion to be performed more efficiently.
 
-See Hofstader\'s fun article on Lisp\'s lists and recursion in
-*Metamagical Themas*.
+See Hofstader\'s \[fun article on Lisp\'s lists and recursion in
+/Metamagical Themas/\](resources/lisp~lists~.md).
 
 Running Scheme Code in Emacs
 ----------------------------
@@ -263,10 +263,10 @@ Free Vs. Open Source Software
 In 1997, there was a break in the community of non-proprietary software
 developers. Due to personality conflicts with Richard Stallman and a
 feeling that his stance on free software as an ethical issue was
-anti-business, some developers, including Eric Raymond , started the
-open source movement. Open source advocates for releasing code to the
-public as a sensible and sustainable business practice rather than an
-ethical requirement.
+anti-business, some developers, including Eric Raymond, started the open
+source movement. Open source advocates for releasing code to the public
+as a sensible and sustainable business practice rather than an ethical
+requirement.
 
 Functional Programming
 ----------------------

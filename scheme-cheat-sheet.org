@@ -26,7 +26,7 @@ Programming is kind of like making a house. First, you design something, then yo
 ** Recursion
 Recursion in the abstract means a thing referring to itself. In programming, it usually means calling a function from inside itself. Recursion is a useful way of solving problems and is particularly encouraged in Scheme. Scheme is associated with the introduction of tail recursion, which if implemented in a programming language allows recursion to be performed more efficiently.
 
-See Hofstader's fun article on Lisp's lists and recursion in /Metamagical Themas/.
+See Hofstader's [fun article on Lisp's lists and recursion in /Metamagical Themas/](resources/lisp_lists.md).
 ** Running Scheme Code in Emacs
 *Open Emacs.* (Finder > Emacs if you've downloaded the OSX version to your Applications folder)
 
@@ -102,7 +102,7 @@ Type ~C-h t~ to start the built-in tutorial. Highly recommended.
 An old text editor with a lot of features. Made by a cranky person who likes parrots.
 * Programmer Lore
 ** Free Vs. Open Source Software
-In 1997, there was a break in the community of non-proprietary software developers. Due to personality conflicts with Richard Stallman and a feeling that his stance on free software as an ethical issue was anti-business, some developers, including Eric Raymond , started the open source movement. Open source advocates for releasing code to the public as a sensible and sustainable business practice rather than an ethical requirement.
+In 1997, there was a break in the community of non-proprietary software developers. Due to personality conflicts with Richard Stallman and a feeling that his stance on free software as an ethical issue was anti-business, some developers, including Eric Raymond, started the open source movement. Open source advocates for releasing code to the public as a sensible and sustainable business practice rather than an ethical requirement.
 ** Functional Programming
 One of many programming paradigms, or high-level ways of architecting software. Though functions are used in almost all modern programming, programming in the functional style means passing values from function to function so that few variables have to be defined and so that structures in memory don't have to be changed in place. Most programmers aren't initially trained in this style but it's shown its usefulness in creating software that avoids certain classes of bugs and which allows the computer to split up problems into discrete tasks that can be run in paralell without causing trouble.
 
