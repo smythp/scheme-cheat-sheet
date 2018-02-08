@@ -26,7 +26,7 @@ Programming is kind of like making a house. First, you design something, then yo
 ** Recursion
 Recursion in the abstract means a thing referring to itself. In programming, it usually means calling a function from inside itself. Recursion is a useful way of solving problems and is particularly encouraged in Scheme. Scheme is associated with the introduction of tail recursion, which if implemented in a programming language allows recursion to be performed more efficiently.
 
-See Douglas Hofstader's [[resources/lisp_lists.md][fun article on Lisp's lists and recursion from the book /Metamagical Themas/]].
+See Douglas Hofstader's [[file:resources/lisp_lists.md][fun article on Lisp's lists and recursion from the book /Metamagical Themas/]].
 ** Running Scheme Code in Emacs
 *Open Emacs.* (Finder > Emacs if you've downloaded the OSX version to your Applications folder)
 
