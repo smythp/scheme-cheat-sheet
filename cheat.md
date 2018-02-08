@@ -102,8 +102,8 @@ encouraged in Scheme. Scheme is associated with the introduction of tail
 recursion, which if implemented in a programming language allows
 recursion to be performed more efficiently.
 
-See Hofstader\'s \[fun article\]() on Lisp\'s lists and recursion from
-the book *Metamagical Themas*.
+See Douglas Hofstader\'s *fun article on Lisp\'s lists and recursion
+from the book *Metamagical Themas**.
 
 Running Scheme Code in Emacs
 ----------------------------
