@@ -23,7 +23,7 @@ title: Scheme Cheat Sheet
     -   [Open File](#open-file)
     -   [Tutorial](#tutorial)
     -   [What is Emacs?](#what-is-emacs)
--   [Programmer lore](#programmer-lore)
+-   [Programmer Lore](#programmer-lore)
     -   [Free Vs. Open Source Software](#free-vs.-open-source-software)
     -   [Functional Programming](#functional-programming)
     -   [Hacker](#hacker)
@@ -246,8 +246,7 @@ files.
 Tutorial
 --------
 
-Type `C-h t` to start the built-in tutorial. Highly recommended. Will
-take 2-5 hours.
+Type `C-h t` to start the built-in tutorial. Highly recommended.
 
 What is Emacs?
 --------------
@@ -255,7 +254,7 @@ What is Emacs?
 An old text editor with a lot of features. Made by a cranky person who
 likes parrots.
 
-Programmer lore
+Programmer Lore
 ===============
 
 Free Vs. Open Source Software

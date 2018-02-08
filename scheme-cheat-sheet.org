@@ -97,10 +97,10 @@ C-x C-f (control-x, control-f)
 After hitting it, you'll see a prompt in the minibuffer. If you type a filename, it will open the file. If you type a name that doesn't exist yet, it will open an empty buffer that you can type in. Once you save that buffer, a new file will be created with that name. So the open file function is also how you create new files.
 
 ** Tutorial
-Type ~C-h t~ to start the built-in tutorial. Highly recommended. Will take 2-5 hours.
+Type ~C-h t~ to start the built-in tutorial. Highly recommended.
 ** What is Emacs?
 An old text editor with a lot of features. Made by a cranky person who likes parrots.
-* Programmer lore
+* Programmer Lore
 ** Free Vs. Open Source Software
 In 1997, there was a break in the community of non-proprietary software developers. Due to personality conflicts with Richard Stallman and a feeling that his stance on free software as an ethical issue was anti-business, some developers, including Eric Raymond , started the open source movement. Open source advocates for releasing code to the public as a sensible and sustainable business practice rather than an ethical requirement.
 ** Functional Programming
